@@ -1,0 +1,101 @@
+@media (max-width:991px) {
+    .navbar-toggler {
+        color: #fff;
+        box-shadow: var(--shadow-black-300);
+        background: var(--main-color);
+        padding: 10px 12px;
+        font-size: 20px;
+    }
+
+    .navbar-nav {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .navbar .nav-link {
+        text-align: center;
+
+    }
+
+    .home-img .circle {
+        width: 320px;
+        height: 320px;
+    }
+
+    .home-img .circle::before {
+        left: 18px;
+        top: 18px;
+        transform-origin: 142px 142px;
+    }
+
+    .home-text h1 {
+        font-size: 40px;
+    }
+
+    .pricing-plan,
+    .how-it-work-item,
+    .app-dowenlod-item {
+        margin-bottom: 30px;
+    }
+
+    .how-it-work-item.line-right::before {
+        content: none;
+    }
+
+    .how-it-work-item {
+        box-shadow: var(--shadow-black-100);
+        border-radius: 10px;
+    }
+
+    .footer-col {
+        margin-bottom: 30px;
+    }
+
+    .owl-nav {
+        display: none;
+    }
+
+}
+
+@media (max-width:767px) {
+    .home-text {
+        margin-bottom: 80px;
+    }
+
+    .fun-facts-img img {
+        margin-bottom: 30px;
+    }
+
+    .contact-form {
+        margin-top: 20px;
+    }
+
+    .section-title h2 {
+        font-size: 35px;
+    }
+
+    .owl-nav {
+        display: none;
+    }
+    #fun-facts .section-title h2{
+        text-align: center;
+    }
+}
+
+@media (max-width:575px) {
+    .home-text h1 {
+        font-size: 30px;
+    }
+
+    .home-text p {
+        font-size: 16px;
+    }
+
+    .section-title h2 {
+        font-size: 30px;
+    }
+
+    .owl-nav {
+        display: none;
+    }
+}
